@@ -40,7 +40,7 @@ namespace Sheenam.Api
         {
             if (environment.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                app.UseDeveloperExceptionPage(); 
                 app.UseSwagger();
                     
                 app.UseSwaggerUI(options =>
