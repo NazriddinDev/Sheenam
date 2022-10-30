@@ -1,6 +1,6 @@
 ﻿//================================================
 //Copyright (c) Calition of Good-Hearted Engineers
-//Free To Use Comfort and Peace
+//Free To Use To Find Comfort and Peace
 //================================================
 
 using ADotNet.Clients;
