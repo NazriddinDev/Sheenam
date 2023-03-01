@@ -15,7 +15,7 @@ var githubPipeline = new GithubPipeline
     OnEvents = new Events
     {
         PullRequest = new PullRequestEvent
-        {
+        {   
             Branches = new string[] { "master" }
         },
 
