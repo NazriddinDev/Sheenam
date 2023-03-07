@@ -15,7 +15,7 @@ namespace Sheenam.API.Tests.Unit.Services.Foundations.Guests
             [Fact]
             public async Task ShouldAddGuestAsync()
             {
-            //given 
+            //given  
             Guest randomGuest = CreateRandomGuest();
             Guest inputGuest = randomGuest;
             Guest storageBroker = inputGuest;
