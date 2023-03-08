@@ -10,7 +10,7 @@ using Sheenam.Api.Models.Foundations.Guests;
 
 namespace Sheenam.API.Tests.Unit.Services.Foundations.Guests
 {
-    public partial class GuestServiceTests
+    public partial class GuestServiceTests 
     {
             [Fact]
             public async Task ShouldAddGuestAsync()

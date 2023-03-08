@@ -32,7 +32,7 @@ namespace Sheenam.API.Tests.Unit.Services.Foundations.Guests
 
             //than
             await Assert.ThrowsAsync<GuestValidationException>(() =>
-            addGuestTask.AsTask());
+                addGuestTask.AsTask());
         }
     }
 }
