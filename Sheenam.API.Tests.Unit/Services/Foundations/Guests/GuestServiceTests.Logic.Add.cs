@@ -37,6 +37,7 @@ namespace Sheenam.API.Tests.Unit.Services.Foundations.Guests
                     Times.Once());
 
             this.storageBrokerMock.VerifyNoOtherCalls();
+            this.loggingBrokerMock.VerifyNoOtherCalls();
             }
     }
 }
