@@ -21,10 +21,10 @@ namespace Sheenam.API.Tests.Unit.Services.Foundations.Guests
         public async Task ShouldThrovValodationExceptionOnAddIfGuestIsNullAndLogItAsync()
         { 
             //given
-            Guest nullGuest = null;
+            Guest nullGuest = null; 
             var nullGuestException = new NullGuestException();
 
-            var expectedGuestValidationException =
+            var expectedGuestValidationException =  
                 new GuestValidationException(nullGuestException);
 
             //when
